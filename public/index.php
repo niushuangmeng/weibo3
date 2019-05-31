@@ -35,8 +35,8 @@ require __DIR__.'/../vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
-
+$app = require_once __DIR__.'/../bootstrap/app.php';//创建一个应用程序／ 服务容器 的实例
+// dump($app);
 /*
 |--------------------------------------------------------------------------
 | Run The Application

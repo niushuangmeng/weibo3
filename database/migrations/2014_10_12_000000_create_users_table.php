@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUsersTable extends Migration
+class CreateUsersTable extends Migration//定义了一个 CreateUsersTable 类,继承自 Migration 基类
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('users', function (Blueprint $table) {//我们通过调用 Schema 类的 create 方法来创建 users 表
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('email')->unique();

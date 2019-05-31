@@ -134,7 +134,7 @@ return [
     |
     */
 
-    'providers' => [
+    'providers' => [//应用程序的 服务提供者
 
         /*
          * Laravel Framework Service Providers...
